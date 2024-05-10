@@ -1,4 +1,4 @@
-# OCTANET_AUGUST
+# OCTANET_MAY
 Step 1: Set up the HTML structure Start by creating a new HTML file and open it in a text editor. Add the basic HTML structure with the doctype, html, head, and body tags.
 
 html
