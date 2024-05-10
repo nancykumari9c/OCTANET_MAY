@@ -1,4 +1,4 @@
-.food-munch-logo {
+.dress-munch-logo {
     width: 80px;
     height: 70px;
 }
@@ -150,22 +150,22 @@
     border-radius: 16px;
 }
 
-.healthy-food-section {
+.trendy-dress-section {
     background-color: pink;
 }
 
-.healthy-food-section-img {
+.trendy-dress-section-img {
     width: 270px;
 }
 
-.healthy-food-section-heading {
+.trendy-dress-section-heading {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 28px;
     color: #183b56;
 }
 
-.healthy-food-section-description {
+.trendy-dress-section-description {
     color: #5a7184;
     font-family: "Roboto";
     font-size: 16px;
