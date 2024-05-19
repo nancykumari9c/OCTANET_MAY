@@ -1,0 +1,77 @@
+body {
+  background-image: url('https://img.freepik.com/premium-photo/list-icon-notebook-with-completed-todo-list-3d-render_471402-428.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+.container-title {
+  font-size: 25px;
+  text-align: center;
+  margin: 0 0 30px 0;
+  color: white;
+  text-shadow: 3px 1px rgb(238, 230, 230);
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #622835;
+}
+#todoInput {
+  height: 47px;
+  width: calc(40% - 20px);
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-left: 390px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border: 2px solid green;
+}
+#addBtn {
+  width: 60px;
+  padding: 14px;
+  box-sizing: border-box;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#todoList {
+  list-style-type: none;
+  padding: 0;
+}
+.todoItem {
+  width: 37%;
+  margin-left: 389px;
+  padding: 7px;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border-left: 4px solid transparent;
+  transition: border-left-color 0.3s ease;
+  border: 2px solid green;
+}
+.todoItem:hover {
+  border-left-color: #4CAF50;
+}
+.todoItem input[type="checkbox"] {
+  margin-left: 2px;
+}
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+.deleteBtn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 33em;
+}
